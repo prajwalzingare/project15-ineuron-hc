@@ -322,3 +322,136 @@ nav .list-items ul li {
 }
 
 /* FETURED SECTION DESIGHN  */
+
+.product {
+    margin-top: 30px;
+    padding: 2% 10%;
+    margin-bottom: 50px;
+}
+
+.product-heading {
+    margin-top: 150px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-heading .heading-left h2 {
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.product-heading .heading-left p {
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
+
+.product-heading .heading-right button {
+    background-color: #f83241;
+    color: #fff;
+    padding: 20px 30px;
+    font-weight: bold;
+}
+
+/* product cards desighn  */
+
+.product-cards {
+    display: flex;
+    flex: 2;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 36px;
+    padding: 0px 30px;
+}
+
+.product-cards .product-card .p-img img {
+    width: 30rem;
+    height: 16rem;
+}
+
+.product-cards .product-card .p-img {
+    display: flex;
+    width: 38rem;
+    height: 22rem;
+    background-color: #1e1e1e;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-cards .product-card .p-info h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.product-cards .product-card .p-info p {
+    color: #c91b28;
+    font-weight: bold;
+}
+
+/* contact section desighn  */
+.contact {
+    padding: 2% 10%;
+}
+
+.contact .contact-head {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 10rem;
+    padding: 30px 40px;
+    background-color: #1e1e1e;
+    align-items: center;
+}
+
+.contact .contact-head .contact-left h2 {
+    font-weight: bold;
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.contact .contact-head .contact-left p {
+    font-weight: lighter;
+    font-size: 1rem;
+    margin-bottom: 50px;
+}
+
+.contact .contact-head .contact-right button {
+    position: relative;
+    right: 290px;
+    background-color: #f83241;
+    color: #fff;
+    padding: 20px 30px;
+    font-weight: bold;
+}
+
+.contact .contact-tail {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    justify-content: center;
+    list-style: none;
+}
+
+.contact .contact-tail li {
+    padding: 0px 15px;
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 10%;
+    background-color: #1e1e1e;
+    align-items: center;
+    height: 10rem;
+}
+
+footer .icon {
+    position: relative;
+    right: 40rem;
+}
+
+footer .icon img {
+    padding: 0px 15px;
+}
