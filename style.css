@@ -443,7 +443,41 @@ nav .list-items ul li {
 }
 
 
-@media screen and (max-width:800px) {}
+@media screen and (max-width:800px) {
+
+    .product-cards {
+
+        gap: 36px;
+        padding: 0px 10px;
+        align-items: flex-start;
+    }
+
+    .product-cards .product-card .p-img img {
+        width: 20rem;
+        height: 17rem;
+    }
+
+    .product-cards .product-card .p-img {
+        display: flex;
+        width: 25rem;
+        height: 18rem;
+        background-color: #1e1e1e;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .product-cards .product-card .p-info h2 {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    .product-cards .product-card .p-info p {
+        color: #c91b28;
+        font-weight: bold;
+    }
+
+
+}
 
 /* contact section desighn  */
 .contact {
