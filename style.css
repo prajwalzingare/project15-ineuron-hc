@@ -446,10 +446,10 @@ nav .list-items ul li {
 @media screen and (max-width:800px) {
 
     .product-cards {
-
         gap: 36px;
         padding: 0px 10px;
         align-items: flex-start;
+        justify-content: left;
     }
 
     .product-cards .product-card .p-img img {
